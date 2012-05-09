@@ -8,6 +8,9 @@ You'll need the heroku gem installed with Heroku. Then:
 
     git clone https://github.com/cloudfuji/hubot-kandan-app.git
     cd hubot-kandan-app
+    npm install
+    git add .
+    git commit -m "Adding npm dependencies"
     # Add Hubot scripts to ./scripts if you want
     heroku create --stack cedar
     heroku config:add HUBOT_KANDAN_HOST=kandan-host HUBOT_KANDAN_TOKEN=kandan-token HUBOT_KANDAN_CHANNELS=1
