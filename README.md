@@ -30,7 +30,7 @@ Once you've added all the scripts you want, edit this next bit with the appropri
 
     # ********** EDIT TO ADD YOUR VARIABLES **********
     # Add any other config variables your extra scripts may need
-    heroku config:add HUBOT_KANDAN_HOST=kandan-host HUBOT_KANDAN_TOKEN=kandan-token HUBOT_KANDAN_CHANNELS=1
+    heroku config:add HUBOT_KANDAN_CHANNELS=1 HUBOT_KANDAN_HOST=kandan-host HUBOT_KANDAN_TOKEN=kandan-token 
     
 
 Done! Never feel lonely again with your own robotic companion.
