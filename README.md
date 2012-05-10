@@ -31,7 +31,12 @@ Once you've added all the scripts you want, edit this next bit with the appropri
     # ********** EDIT TO ADD YOUR VARIABLES **********
     # Add any other config variables your extra scripts may need
     heroku config:add HUBOT_KANDAN_CHANNELS=1 HUBOT_KANDAN_HOST=kandan-host HUBOT_KANDAN_TOKEN=kandan-token 
-    
+
+You can get your `HUBOT_KANDAN_HOST` and `HUBOT_KANDAN_TOKEN` variables on Cloudfuji by clicking on App Settings while in Kandan:
+
+![](http://github.com/cloudfuji/hubot-kandan-app/raw/master/settings.png)    
+
+Or if you're running it elsewhere, use the `rake kandan:hubot_access_key`
 
 Done! Never feel lonely again with your own robotic companion.
 
