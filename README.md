@@ -9,21 +9,17 @@ You'll need the heroku gem installed with Heroku. Then:
     git clone https://github.com/cloudfuji/hubot-kandan-app.git
     cd hubot-kandan-app
 
-    # Install the dependencies and scripts
-    npm install
-    mkdir scripts
-    cp node_modules/hubot-kandan-heroku/node_modules/hubot/src/scripts/* scripts/
     # Add Hubot scripts to ./scripts if you want.
     # Visit the [Hubot Script Catalog](http://hubot-script-catalog.herokuapp.com/)
     # for some cool tricks you can teach your Hubot.
 
     # Push and scale
-    git push heroku master
+    heroku create --stack cedar
+    git push heroku master --force
     heroku ps:scale app=1
-    # Hubot should appear!
 
-    # ********** EDIT TO ADD YOUR VARIABLES **********
-    # Add any other config variables your extra scripts may need
+    # *************** EDIT TO ADD YOUR VARIABLES *************** #
+    # Add any other config variables your extra scripts may need #
     heroku config:add HUBOT_KANDAN_CHANNELS=1 HUBOT_KANDAN_HOST=kandan-host HUBOT_KANDAN_TOKEN=kandan-token 
 
 You can get your `HUBOT_KANDAN_HOST` and `HUBOT_KANDAN_TOKEN` variables on Cloudfuji by clicking on App Settings while in Kandan:
