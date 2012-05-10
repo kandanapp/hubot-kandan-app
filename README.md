@@ -13,15 +13,9 @@ You'll need the heroku gem installed with Heroku. Then:
     npm install
     mkdir scripts
     cp node_modules/hubot-kandan-heroku/node_modules/hubot/src/scripts/* scripts/
-    # Add Hubot scripts to ./scripts if you want
-
-Visit the [Hubot Script Catalog](http://hubot-script-catalog.herokuapp.com/) for some cool tricks you can teach your Hubot.
-
-Once you've added all the scripts you want, edit this next bit with the appropriate info:
-    
-    git add .
-    git commit -m "Adding npm dependencies"
-    heroku create --stack cedar
+    # Add Hubot scripts to ./scripts if you want.
+    # Visit the [Hubot Script Catalog](http://hubot-script-catalog.herokuapp.com/)
+    # for some cool tricks you can teach your Hubot.
 
     # Push and scale
     git push heroku master
