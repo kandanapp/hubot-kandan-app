@@ -2,18 +2,18 @@
   "name": "hubot-kandan-heroku-app",
   "version": "0.1.0",
   "author": {
-    "name": "Cloudfuji"
+    "name": "KandanApp"
   },
   "description": "A small deployable package for running a Kandan-specific Hubot on Heroku",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/cloudfuji/hubot-kandan-heroku/raw/master/LICENSE"
+      "url": "http://github.com/kandanapp/hubot-kandan-app/raw/master/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/cloudfuji/hubot-kandan-heroku.git"
+    "url": "git://github.com/kandanapp/hubot-kandan-app.git"
   },
   "dependencies": {
     "hubot-kandan-heroku": "0.1.0"
