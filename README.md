@@ -6,7 +6,7 @@ Installation
 ============
 You'll need the heroku gem installed with Heroku. Then:
 
-    git clone https://github.com/cloudfuji/hubot-kandan-app.git
+    git clone https://github.com/kandanapp/hubot-kandan-app.git
     cd hubot-kandan-app
 
     # Add Hubot scripts to ./scripts if you want.
@@ -22,9 +22,9 @@ You'll need the heroku gem installed with Heroku. Then:
     # Add any other config variables your extra scripts may need #
     heroku config:add HUBOT_KANDAN_CHANNELS=1 HUBOT_KANDAN_HOST=kandan-host HUBOT_KANDAN_TOKEN=kandan-token 
 
-You can get your `HUBOT_KANDAN_HOST` and `HUBOT_KANDAN_TOKEN` variables on Cloudfuji by clicking on App Settings while in Kandan:
+You can get your `HUBOT_KANDAN_HOST` and `HUBOT_KANDAN_TOKEN` variables on kandanapp by clicking on App Settings while in Kandan:
 
-![](http://github.com/cloudfuji/hubot-kandan-app/raw/master/settings.png)    
+![](http://github.com/kandanapp/hubot-kandan-app/raw/master/settings.png)    
 
 Or if you're running it elsewhere, use the `rake kandan:hubot_access_key`
 
@@ -46,8 +46,6 @@ Get Involved!
 =============
 That's not a question, it's an order! Or more of a friendly offer, really. Kandan is a fully open-source app, so dive in and start adding features, fixing bugs (what bugs?), and cleaning up the code.
 
-* Talk with us on the [mailing list](https://groups.google.com/forum/?fromgroups#!forum/cloudfuji)
-* GitHub [issues tracker](https://github.com/cloudfuji/kandan/issues)
-* Twitter [@cloudfuji](https://twitter.com/#!/cloudfuji)
-* [New-wave open-source meetup](www.meetup.com/San-Francisco-New-Wave-Open-Source-Apps/) - we meetup once a month to share tips on how developers grow business around super high-quality open source software
-* ... trained orca whales are also an acceptable communication medium, iff they arrive on tricycles.
+* GitHub [issues tracker](https://github.com/kandanapp/kandan/issues)
+* Twitter [@kandanapp](https://twitter.com/kandanapp)
+
