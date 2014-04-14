@@ -30,6 +30,17 @@ Or if you're running it elsewhere, use the `rake kandan:hubot_access_key`
 
 Done! Never feel lonely again with your own robotic companion.
 
+Optional configuration
+======================
+
+If your Kandan app is running on a non-standard port, or using SSL, you
+may configure the connection with additional environment variables (be
+sure to add these to Heroku or wherever your Kandan Hubot app is
+running):
+
+    HUBOT_KANDAN_HOST=443
+    HUBOT_KANDAN_PROTOCOL=https
+
 Other cloud providers
 =====================
 Installation instructions for other cloud providers are readily accepted, but be sure keep them as close to copy/paste as possible.
