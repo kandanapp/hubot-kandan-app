@@ -26,6 +26,23 @@ You can get your `HUBOT_KANDAN_HOST` and `HUBOT_KANDAN_TOKEN` variables on kanda
 
 ![](http://github.com/kandanapp/hubot-kandan-app/raw/master/settings.png)    
 
+Heroku will idle processes after an hour of inactivity, so the Hubot
+will ping itself periodically if you add the `HEROKU_URL` environment
+variable pointing to your app's instance URL:
+
+    heroku config:set HEROKU_URL=http://rosemary-britches-123.herokuapp.com
+
+Finally, Some scripts needs Redis to work, Heroku offers an addon called
+RedisToGo, which has a free nano plan. To use it run:
+
+    heroku addons:add redistogo:nano
+
+And add the `redis-brain.coffee` hubot-script (see section below on
+Hubot Scripts).
+
+If needed, refer to the [full Hubot Heroku installation
+instructions](https://github.com/github/hubot/blob/master/docs/deploying/heroku.md).
+
 Or if you're running it elsewhere, use the `rake kandan:hubot_access_key`
 
 Done! Never feel lonely again with your own robotic companion.
