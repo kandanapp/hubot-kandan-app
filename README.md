@@ -62,6 +62,23 @@ Other cloud providers
 =====================
 Installation instructions for other cloud providers are readily accepted, but be sure keep them as close to copy/paste as possible.
 
+Hubot Scripts
+=============
+
+Hubot comes with many user-contributed scripts that may be installed. To
+install Hubot Scripts, add the following to `"dependencies"` in the
+package.json file:
+
+    "hubot-scripts": ""
+
+And run `npm install`.
+
+Then add the names of any scripts you like from the
+[hubot-scripts](https://github.com/github/hubot-scripts) repository to
+the array in the hubot-scripts.json file, such as:
+
+    ["redis-brain.coffee", "tweet.coffee", "shipit.coffee"]
+
 Credits
 =======
 The staff of News Radio for their inspirational lyrics.
