@@ -58,6 +58,15 @@ running):
     HUBOT_KANDAN_HOST=443
     HUBOT_KANDAN_PROTOCOL=https
 
+Authentication
+==============
+
+If your Kandan app is running with authentication, you're able to set
+authorization header for basic authentication or OAuth with additional
+environment variables:
+
+    HUBOT_KANDAN_AUTH='Basic (base64 encoded user and password)'
+
 Other cloud providers
 =====================
 Installation instructions for other cloud providers are readily accepted, but be sure keep them as close to copy/paste as possible.
