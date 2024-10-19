@@ -55,7 +55,7 @@ may configure the connection with additional environment variables (be
 sure to add these to Heroku or wherever your Kandan Hubot app is
 running):
 
-    HUBOT_KANDAN_HOST=443
+    HUBOT_KANDAN_PORT=443
     HUBOT_KANDAN_PROTOCOL=https
 
 Other cloud providers
